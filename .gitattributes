@@ -1,0 +1,13 @@
+# Text file normalization
+# Generated on 2026-11-06
+# See https://github.com/github/linguist
+*.yaml linguist-detectable=false
+*.jpeg binary
+*.png binary
+
+examples/site/** linguist-vendored
+*.bat text eol=crlf
+*.tsx linguist-detectable
+examples/site/* linguist-vendored
+
+package-lock.json linguist-generated
