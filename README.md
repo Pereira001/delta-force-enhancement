@@ -96,20 +96,20 @@ No manual file copying. No guesswork. No compatibility nightmares.
 
 <p align="center">
   <em>Main dashboard — scan, select, install.</em><br>
-  <img src="<img width="1616" height="999" alt="image" src="https://github.com/user-attachments/assets/e15468e5-e659-48b6-a56e-194e498aee90" />
-" alt="DLSS 5 Manager dashboard" width="720">
+  <img src="https://github.com/user-attachments/assets/e15468e5-e659-48b6-a56e-194e498aee90"
+       alt="DLSS 5 Manager dashboard" width="720">
 </p>
 
 <p align="center">
   <em>Which route a game gets.</em><br>
-  <img src="<img width="900" height="480" alt="image" src="https://github.com/user-attachments/assets/b5e60e66-16e1-4581-84a8-e34c202d1aa7" />
-" alt="Installation options" width="720">
+  <img src="https://github.com/user-attachments/assets/b5e60e66-16e1-4581-84a8-e34c202d1aa7"
+       alt="Installation options" width="720">
 </p>
 
 <p align="center">
   <em>Settings — AMD mode, cache, and advanced toggles.</em><br>
-  <img src="<img width="1616" height="999" alt="image" src="https://github.com/user-attachments/assets/a8aba310-596d-4130-b4de-87c57fafbd1e" />
-" alt="Settings" width="720">
+  <img src="https://github.com/user-attachments/assets/a8aba310-596d-4130-b4de-87c57fafbd1e"
+       alt="Settings" width="720">
 </p>
 
 ---
