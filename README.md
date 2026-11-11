@@ -210,8 +210,7 @@ Every ⭐ on GitHub, every bug report, and every shared screenshot makes a diffe
 
 ## 📜 License & Credits
 
-### Original code
-**Copyright © 2026 NODIX‑TECH**  
+### Original code 
 DLSS 5 Manager contains original code, design, and implementation
 
 
